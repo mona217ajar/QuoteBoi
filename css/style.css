@@ -10,13 +10,18 @@ h1{
     z-index: 0;
 }
 h2{
-    margin-top: 50px;
-    margin-left: 30%;
+    margin-top: 40px;
+    /* margin-left: 30%; */
+    text-align: center;
 }
 h3{
-    position: absolute;
-    margin-left: 30%;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
     bottom: 20px;
+    text-align: center;
 }
 div#quotes{
     position: absolute;
@@ -34,16 +39,18 @@ div#quotes{
     z-index: 100;
     padding: 20px;
 }
-div#quotes img.face{
+div#quotes img#face{
     position: absolute;
     /* display: block; */
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
     background: #fff;
     box-shadow: 1px 2px 4px #ff0000;
     z-index: 115;
-    top: 0;
-    margin-top: 75px;
+    top: -170px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-top: 75px; */
 
 }
